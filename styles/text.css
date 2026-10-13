@@ -1,0 +1,157 @@
+html, body {
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+}
+
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at center, transparent 0%, #caeaff66 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Fonts */
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Styles and stuff */
+
+.contexts_bg {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 700px;
+    max-height: 1200px;
+    overflow-y: auto;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.card {
+    width: 300px;
+}
+
+.card img {
+    margin-top: 50px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.button_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+  width: min(1000px, 95%);
+  margin: 30px auto;
+  align-items: center;
+}
+
+.title_txt {
+  text-align: center;
+  font-size: 2.5em;
+  color: #caeaff;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+
+.subhead_txt {
+  text-align: center;
+  font-size: 2em;
+  color: #caeaff;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.description_txt {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 20px;
+  color: #9bc0ff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.desc_btn {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  padding: 0px;
+  background: none;
+  border: none;
+  color: #caeaff;
+}
+
+.desc_btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.desc_btn:active {
+  color: rgb(0, 0, 0);
+}
+
+.spacer {
+  margin-bottom: 40px;
+}
+
+/* second page styles */
