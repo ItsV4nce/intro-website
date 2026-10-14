@@ -85,6 +85,7 @@ body::before {
     padding: 20px;
     padding-top: 20px;
     padding-bottom: 40px;
+    box-shadow: 10px 10px #9bc0ff;
 }
 
 .card {
